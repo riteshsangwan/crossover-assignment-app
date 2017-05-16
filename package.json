@@ -1,0 +1,26 @@
+{
+  "name": "assignment-app",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "dependencies": {
+    "esri-loader": "^1.0.0",
+    "esri-loader-react": "^1.0.0",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-form": "^1.2.7",
+    "react-modal": "^1.7.7",
+    "react-router": "^4.1.1",
+    "react-router-dom": "^4.1.1",
+    "reqwest": "^2.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  }
+}
