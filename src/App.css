@@ -10,6 +10,15 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #000000;
+  background-color: #161616;
   opacity: 0.9;
+}
+.donor-detail-container {
+  margin-top: 10px;
+}
+.detail-panel {
+  width: 600px;
+}
+.detail-panel .btn.btn-success {
+  margin-left: 10px;
 }

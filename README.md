@@ -12,7 +12,7 @@ This application is bootstrapped using [create-react-app](https://github.com/fac
 
 - The postings are updated in realtime using sockets connections
 - Only donors in the viewable region of the map are loaded. Once the user drags or resize the map the donor markers are updated.
-- The update to the feature layer is batched and the feature layer is updated once every 2 seconds. This gives great performance boost.
+- The update to the feature layer is batched and the feature layer is updated once every a second. This gives great performance boost.
 
 
 ### Configuration

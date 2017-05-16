@@ -42,6 +42,11 @@ class ApiService {
     const url = `${this.baseUrl}/donors/${id}`;
     return reqwest({ url: url, method: 'delete' });
   }
+
+  get(id) {
+    const url = `${this.baseUrl}/donors/${id}`;
+    return reqwest({ url: url });
+  }
 }
 
 export default ApiService;
