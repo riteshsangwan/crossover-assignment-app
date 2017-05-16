@@ -128,7 +128,6 @@ class MapComponent extends React.Component {
      * Only re render the features layer once a second, this will result in significat performance boost
      */
     if (!this.featuresLastUpdated || (Date.now() - this.featuresLastUpdated) > 1000) {
-      this.featuresLoading = true;
       // only redraw if not already redrawing
       const graphics = donors.map((single, index) => ({
         geometry: new Point({
