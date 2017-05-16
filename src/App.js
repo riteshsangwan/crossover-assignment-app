@@ -230,8 +230,8 @@ class MapComponent extends React.Component {
           {(this.state.success === true) &&
             <div className="alert alert-success">
               Donor posting added successfully.
-              To edit/delete posting follow <a href={`http://localhost:3000/donors/${this.state.posting.id}`}>this</a> link,
-              or you can copy paste the link {`http://localhost:3000/donors/${this.state.posting.id}`}
+              To edit/delete posting follow <a href={`${config.APP_BASE_PATH}/donors/${this.state.posting.id}`}>this</a> link,
+              or you can copy paste the link {`${config.APP_BASE_PATH}/donors/${this.state.posting.id}`}
             </div>
           }
           {(this.state.error === true) &&

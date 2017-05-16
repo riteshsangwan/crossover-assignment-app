@@ -16,6 +16,7 @@ const Config = {
   socket: {
     url: 'http://localhost:4000',
   },
+  APP_BASE_PATH: 'http://localhost:3000',
   BLOOD_GROUPS: {
     O_NEGATIVE: 'O-',
     O_POSITIVE: 'O+',
